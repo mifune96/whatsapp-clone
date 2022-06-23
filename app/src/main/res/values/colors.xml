@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#128c7e</color>
+    <color name="purple_700">#128c7e</color>
+    <color name="teal_200">#128c7e</color>
+    <color name="teal_700">#128c7e</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tab_active">@color/white</color>
+    <color name="tab_inactive">@color/green_light</color>
+    <color name="floating_message_create">@color/green</color>
+    <color name="channel_background">@color/off_white</color>
+    <color name="toolbar_background">@color/green_darker</color>
+    <color name="message_yours">@color/green_lightest</color>
+    <color name="message_theirs">@color/white</color>
+    <color name="message_input_button_inactive">@color/gray</color>
+    <color name="floating_message_send">@color/green_dark</color>
+    <color name="green_lightest">#e2ffc7</color>
+    <color name="green_light">#7eb0ad</color>
+    <color name="green">#16cc3e</color>
+    <color name="green_dark">#19887a</color>
+    <color name="green_darker">#0e5e55</color>
+    <color name="green_darkest">#00574B</color>
+    <color name="off_white">#e0e0e0</color>
+    <color name="gray">#88898b</color>
+</resources>
