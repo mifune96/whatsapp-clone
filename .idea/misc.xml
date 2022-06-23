@@ -6,6 +6,7 @@
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1335" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/drawable/bg_bulet.xml" value="0.235" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/drawable/bg_chat_penerima.xml" value="0.235" />
+        <entry key="../../Dicoding/WhatsApp/app/src/main/res/drawable/bg_chat_pengirim.xml" value="0.15" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/drawable/bg_ringstatus.xml" value="0.235" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/drawable/ic_attach_file_black_24dp.xml" value="0.1335" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.235" />
@@ -20,6 +21,8 @@
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/call_list_item.xml" value="0.2947916666666667" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/chat_item.xml" value="0.29375" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/chat_list_item.xml" value="0.29375" />
+        <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/chatpenerima_item.xml" value="0.45" />
+        <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/chatpengirim_item.xml" value="0.42163238525390634" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/fragment_calls.xml" value="0.25" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/fragment_chat.xml" value="0.19015045166015626" />
         <entry key="../../Dicoding/WhatsApp/app/src/main/res/layout/fragment_status.xml" value="0.30165659586588545" />
