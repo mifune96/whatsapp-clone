@@ -14,8 +14,16 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <string name="tab_string_1">CHATS</string>
+    <string name="tab_string_2">STATUS</string>
+    <string name="tab_string_3">CALLS</string>
+
+
+
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="type_a_message">Type a message</string>
     <string name="message">Halo Semoga bahagia</string>
+    <string name="my_status">My Status</string>
+    <string name="tab_to_add_status_update">Tab to add status update</string>
 </resources>

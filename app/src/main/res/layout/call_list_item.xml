@@ -16,7 +16,7 @@
 
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/lang_logo"
+            android:id="@+id/iv_call"
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_marginEnd="15dp"
@@ -27,11 +27,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_toEndOf="@id/lang_logo"
+            android:layout_toEndOf="@id/iv_call"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_name_status"
+                android:id="@+id/tv_namecall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -51,7 +51,7 @@
                     android:src="@drawable/ic_baseline_call_made_24" />
 
                 <TextView
-                    android:id="@+id/tv_status_time"
+                    android:id="@+id/tv_timecall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
-            android:background="null"
+            android:background="@android:color/transparent"
             android:src="@drawable/ic_baseline_call_24" />
 
     </RelativeLayout>

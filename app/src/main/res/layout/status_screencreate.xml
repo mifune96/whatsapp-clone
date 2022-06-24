@@ -14,21 +14,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/iv_status"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoitimg"
             android:layout_marginEnd="15dp"
-            app:civ_border_color="@color/green"
-            app:civ_border_width="2dp"
-            tools:src="@drawable/img" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_status"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/img_3"/>
+
+            <ImageView
+                android:background="@drawable/bg_bulet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_add_circle_outline_24"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_status"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_toEndOf="@id/iv_status"
+            android:layout_toEndOf="@id/layoitimg"
             android:orientation="vertical">
 
             <TextView
@@ -38,7 +54,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                tools:text="Cat Loyar" />
+                android:text="@string/my_status" />
 
 
             <RelativeLayout
@@ -53,7 +69,8 @@
                     android:maxLines="1"
                     android:textColor="@color/gray"
                     android:textSize="16sp"
-                    tools:text="Hari ini 19.20" />
+                    android:text="@string/tab_to_add_status_update"
+                    />
 
 
             </RelativeLayout>
