@@ -2,5 +2,5 @@
 
 Berikut Merupakan Demonya
 
-![](https://drive.google.com/file/d/1YBE3HH5IPlMA5eyzZhRHGru0rIhQMwNc/view?usp=sharing)
+![](https://media.giphy.com/media/JMiWpaG9AaazsdAkkR/giphy.gif)
 
